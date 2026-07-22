@@ -17,7 +17,7 @@
                 <div class="col-md-6 mb-3">
                     <label>Carrera</label>
                     <select name="IdCarrera" class="form-control" required>
-                        <option value="">Seleccione...</option>
+                        <option value="">Seleccione carera...</option>
                         @foreach($carreras as $carrera)
                             <option value="{{ $carrera->IdCarrera }}">{{ $carrera->NombreCarreras }}</option>
                         @endforeach
